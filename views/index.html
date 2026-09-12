@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Geiko Bot coding harness</title>
+  <link rel="stylesheet" href="/assets/app.css">
+  <link rel="stylesheet" href="/assets/setup.css">
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="brand"><span class="brand-mark">G</span><div><strong>Gecko</strong><small>coding harness</small></div></div>
+      <button id="new-session" class="primary full">＋ New session</button>
+      <div class="side-label">SESSIONS</div>
+      <div id="sessions" class="sessions"></div>
+      <div class="sidebar-footer"><span id="connection-dot" class="dot"></span><span id="connection-label">Connecting</span></div>
+    </aside>
+    <main class="main">
+      <header class="topbar"><div><span class="eyebrow">LIVE CONVERSATION</span><h1 id="session-title">Geiko Bot</h1></div><div><button id="history-button" class="ghost">Remote history</button> <button id="context-button" class="ghost">Workspace context</button></div></header>
+      <section id="conversation-setup" class="setup hidden"><div><span class="eyebrow">CONVERSATION SETUP</span><h2>Connect a Gecko conversation</h2><p>Enter a conversation ID or a full private channel. Transport settings can exist without an active conversation.</p></div><form id="setup-form"><input id="conversation-id" placeholder="Conversation ID"><span>or</span><input id="conversation-channel" placeholder="private-conversation-…"><button class="primary" type="submit">Connect</button></form></section>
+      <section id="messages" class="messages"><div class="welcome"><div class="welcome-icon">⌘</div><h2>Build with context.</h2><p>Geiko Bot can work from local workspace context, session memory, tools, and Gecko events supplied by this harness.</p><div class="quick-actions"><button data-prompt="Inspect the current project and explain its architecture.">Inspect project</button><button data-prompt="Run the project tests and summarize the result.">Run tests</button><button data-prompt="What should we improve next?">Plan improvements</button></div></div></section>
+      <form id="composer" class="composer"><textarea id="message-input" rows="1" placeholder="Ask Geiko Bot to inspect, explain, or improve the project..."></textarea><div class="composer-bar"><span>Enter to send · Shift+Enter for a new line</span><button class="send" type="submit">Send <span>↗</span></button></div></form>
+    </main>
+    <aside id="inspector" class="inspector"><div class="inspector-head"><span>WORKSPACE</span><button id="close-inspector">×</button></div><div id="inspector-content" class="inspector-content"><p class="muted">Loading workspace details…</p></div></aside>
+  </div>
+  <script type="module" src="/assets/app.js"></script>
+</body>
+</html>

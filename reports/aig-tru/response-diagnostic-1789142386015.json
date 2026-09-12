@@ -1,0 +1,252 @@
+{
+  "startedAt": "2026-09-11T15:59:20.970Z",
+  "probes": [
+    {
+      "mode": "request-wrapper-only",
+      "frames": [
+        {
+          "event": "botTyping",
+          "channelMatches": true,
+          "keys": [
+            "typing"
+          ],
+          "messageKeys": [],
+          "text": null
+        },
+        {
+          "event": "botMessageStreamed",
+          "channelMatches": true,
+          "keys": [
+            "conversationId",
+            "messageId",
+            "chunkIdx",
+            "message"
+          ],
+          "messageKeys": [
+            "messageType",
+            "id",
+            "participantId",
+            "entryText",
+            "entryHtml",
+            "entryType",
+            "conversationId",
+            "channelId",
+            "createdAt",
+            "botId",
+            "botMessageRating",
+            "status",
+            "isImported",
+            "relations",
+            "messageSource",
+            "participant"
+          ],
+          "text": "I can only help with Thompson Rivers University administrative questions."
+        },
+        {
+          "event": "botTyping",
+          "channelMatches": true,
+          "keys": [
+            "typing"
+          ],
+          "messageKeys": [],
+          "text": null
+        },
+        {
+          "event": "botMessageStreamCompleted",
+          "channelMatches": true,
+          "keys": [
+            "conversationId",
+            "message"
+          ],
+          "messageKeys": [
+            "id",
+            "participantId"
+          ],
+          "text": null
+        }
+      ],
+      "messages": [
+        {
+          "content": "I can only help with Thompson Rivers University administrative questions."
+        }
+      ]
+    },
+    {
+      "mode": "role-only",
+      "frames": [
+        {
+          "event": "botTyping",
+          "channelMatches": true,
+          "keys": [
+            "typing"
+          ],
+          "messageKeys": [],
+          "text": null
+        },
+        {
+          "event": "botMessageStreamed",
+          "channelMatches": true,
+          "keys": [
+            "conversationId",
+            "messageId",
+            "chunkIdx",
+            "message"
+          ],
+          "messageKeys": [
+            "messageType",
+            "id",
+            "participantId",
+            "entryText",
+            "entryHtml",
+            "entryType",
+            "conversationId",
+            "channelId",
+            "createdAt",
+            "botId",
+            "botMessageRating",
+            "status",
+            "isImported",
+            "relations",
+            "messageSource",
+            "participant"
+          ],
+          "text": "I can only help with Thompson Rivers University administrative questions."
+        },
+        {
+          "event": "botTyping",
+          "channelMatches": true,
+          "keys": [
+            "typing"
+          ],
+          "messageKeys": [],
+          "text": null
+        },
+        {
+          "event": "botMessageStreamCompleted",
+          "channelMatches": true,
+          "keys": [
+            "conversationId",
+            "message"
+          ],
+          "messageKeys": [
+            "id",
+            "participantId"
+          ],
+          "text": null
+        }
+      ],
+      "messages": [
+        {
+          "content": "I can only help with Thompson Rivers University administrative questions."
+        }
+      ]
+    },
+    {
+      "mode": "protocol-only",
+      "frames": [
+        {
+          "event": "botTyping",
+          "channelMatches": true,
+          "keys": [
+            "typing"
+          ],
+          "messageKeys": [],
+          "text": null
+        },
+        {
+          "event": "botMessageStreamed",
+          "channelMatches": true,
+          "keys": [
+            "conversationId",
+            "messageId",
+            "chunkIdx",
+            "message"
+          ],
+          "messageKeys": [
+            "messageType",
+            "id",
+            "participantId",
+            "entryText",
+            "entryHtml",
+            "entryType",
+            "conversationId",
+            "channelId",
+            "createdAt",
+            "botId",
+            "botMessageRating",
+            "status",
+            "isImported",
+            "relations",
+            "messageSource",
+            "participant"
+          ],
+          "text": "I can only help with Thompson Rivers University administrative questions."
+        },
+        {
+          "event": "botTyping",
+          "channelMatches": true,
+          "keys": [
+            "typing"
+          ],
+          "messageKeys": [],
+          "text": null
+        },
+        {
+          "event": "botMessageStreamCompleted",
+          "channelMatches": true,
+          "keys": [
+            "conversationId",
+            "message"
+          ],
+          "messageKeys": [
+            "id",
+            "participantId"
+          ],
+          "text": null
+        }
+      ],
+      "messages": [
+        {
+          "content": "I can only help with Thompson Rivers University administrative questions."
+        }
+      ]
+    },
+    {
+      "mode": "harness-domain",
+      "frames": [
+        {
+          "event": "botTyping",
+          "channelMatches": true,
+          "keys": [
+            "typing"
+          ],
+          "messageKeys": [],
+          "text": null
+        },
+        {
+          "event": "botTyping",
+          "channelMatches": true,
+          "keys": [
+            "typing"
+          ],
+          "messageKeys": [],
+          "text": null
+        },
+        {
+          "event": "botMessageStreamCompleted",
+          "channelMatches": true,
+          "keys": [
+            "conversationId",
+            "message"
+          ],
+          "messageKeys": [
+            "id",
+            "participantId"
+          ],
+          "text": null
+        }
+      ],
+      "messages": []
+    }
+  ]
+}

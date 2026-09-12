@@ -1,0 +1,40 @@
+{
+  "id": "7b07be91-d5a1-46ef-a59d-bf759fea5323",
+  "account": "tru",
+  "startedAt": "2026-09-11T16:10:06.083Z",
+  "workspace": "/tmp/tru-aig-case-QCXbxd",
+  "remoteIsolation": "saved TRU conversation reused; prior server context may persist",
+  "prompt": "Hi! Before I ask anything else, could you briefly introduce yourself? What is your name, and which organization do you help?",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "I’m **Wolfie**, an AI assistant for **Thompson Rivers University**. I help with TRU administrative questions, including admissions, registration, records, financial aid, and student services."
+    }
+  ],
+  "tools": [],
+  "events": {
+    "client-sendMessage": 1,
+    "botTyping": 2,
+    "botMessageStreamed": 1,
+    "botMessageStreamCompleted": 1
+  },
+  "status": "completed",
+  "completionShape": {
+    "keys": [
+      "conversationId",
+      "message"
+    ],
+    "messageKeys": [
+      "id",
+      "participantId"
+    ],
+    "entryTextLength": 0,
+    "messageTextLength": 0
+  },
+  "reply": "I’m **Wolfie**, an AI assistant for **Thompson Rivers University**. I help with TRU administrative questions, including admissions, registration, records, financial aid, and student services.",
+  "finishedAt": "2026-09-11T16:10:12.931Z",
+  "fixtureFiles": [
+    "notes.txt",
+    "package.json"
+  ]
+}

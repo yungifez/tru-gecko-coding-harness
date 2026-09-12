@@ -1,0 +1,9 @@
+{
+  "id": "01M22DVE79109B5QEG84JHH6BD",
+  "createdAt": "2026-09-09T06:31:58.442Z",
+  "updatedAt": "2026-09-09T06:31:58.442Z",
+  "systemPrompt": "You are a careful coding assistant for a small software harness. Give concrete answers, state assumptions, and prefer small testable changes. When code is requested, include the relevant file and explain how to verify it.",
+  "title": null,
+  "gecko": {},
+  "messages": []
+}

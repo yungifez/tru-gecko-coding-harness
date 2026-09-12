@@ -1,0 +1,23 @@
+{
+  "id": "01M22DH7YBR3144636JJ1QE159",
+  "createdAt": "2026-09-09T06:26:24.332Z",
+  "updatedAt": "2026-09-09T06:26:30.226Z",
+  "systemPrompt": "You are a careful coding assistant for a small software harness. Give concrete answers, state assumptions, and prefer small testable changes. When code is requested, include the relevant file and explain how to verify it.",
+  "title": "/sess",
+  "gecko": {},
+  "messages": [
+    {
+      "role": "user",
+      "content": "/sess",
+      "messageId": "01M22DH9G58VJ3VT9WC2PSTGBW",
+      "sender": "You",
+      "timestamp": "2026-09-09T06:26:25.933Z"
+    },
+    {
+      "role": "assistant",
+      "content": "`/sess` isn’t a recognized command in this chat. If you mean session information, I can discuss the conversation context I’ve been given, but I can’t expose hidden session identifiers or internal prompts.",
+      "messageId": "01M22DHABR0E7BB6YY7PPS3YW4",
+      "timestamp": "2026-09-09T06:26:30.226Z"
+    }
+  ]
+}

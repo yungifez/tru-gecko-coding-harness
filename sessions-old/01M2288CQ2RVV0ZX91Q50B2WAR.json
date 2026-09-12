@@ -1,0 +1,61 @@
+{
+  "id": "01M2288CQ2RVV0ZX91Q50B2WAR",
+  "createdAt": "2026-09-09T04:54:11.427Z",
+  "updatedAt": "2026-09-09T06:15:58.138Z",
+  "systemPrompt": "You are a careful coding assistant for a small software harness. Give concrete answers, state assumptions, and prefer small testable changes. When code is requested, include the relevant file and explain how to verify it.",
+  "gecko": {},
+  "messages": [
+    {
+      "role": "user",
+      "content": "what are the files in my directory",
+      "messageId": "01M2288RF17K6PRY6N3HS00KZF",
+      "sender": "You",
+      "timestamp": "2026-09-09T04:54:23.458Z"
+    },
+    {
+      "role": "assistant",
+      "content": "In the workspace directory `/home/marvellous/Projects/tru-gecko-harness`, the files are:\n\n- `.gitignore`\n- `package-lock.json`\n- `package.json`\n- `README.md`\n- `src/cli.mjs`\n- `src/gecko-client.mjs`\n- `src/gecko-harness.mjs`\n- `src/local-context.mjs`\n- `src/mock-gecko.mjs`\n- `src/prompts.mjs`\n- `src/session-store.mjs`\n- `test/gecko-harness.test.mjs`\n- `test/session-store.test.mjs`\n\nThe directories are `src/` and `test/`.",
+      "messageId": "01M2288SCH7ZPXXY2D4P9TKXZA",
+      "timestamp": "2026-09-09T04:54:28.470Z"
+    },
+    {
+      "role": "user",
+      "content": "what is the time",
+      "messageId": "01M228CN38YVJA9CGBNV6D4TH8",
+      "sender": "You",
+      "timestamp": "2026-09-09T04:56:31.081Z"
+    },
+    {
+      "role": "assistant",
+      "content": "I don’t have access to a live clock. If you tell me your time zone, I can help convert a time; on Linux, you can check locally with:\n\n```bash\ndate\n```",
+      "messageId": "01M228CP1PWAGF11M3S1NFYYDS",
+      "timestamp": "2026-09-09T04:56:36.128Z"
+    },
+    {
+      "role": "user",
+      "content": "what tools would be useful for you to know how to interact with this system",
+      "messageId": "01M228H1DC4JDJ7WAWSS0TRDBR",
+      "sender": "You",
+      "timestamp": "2026-09-09T04:58:54.764Z"
+    },
+    {
+      "role": "assistant",
+      "content": "The most useful tools would be:\n\n- **Workspace inspection:** list files, read file contents, inspect package scripts, and check Git status.\n- **File editing:** create small patches or modify specific files.\n- **Command execution:** run `npm test`, `npm run demo`, and other project scripts.\n- **Session memory:** retrieve the active session ID and recent conversation state.\n- **Gecko event interpretation:** decode typing, message, streaming, completion, and lifecycle events.\n- **Log inspection:** view harness and mock-server logs, with secrets automatically redacted.\n- **Safe network diagnostics:** inspect configured endpoints and connection errors without exposing credentials.\n\nAt present, the harness supplies workspace metadata, session context, and Gecko-event interpretation. It does **not** give me direct filesystem or shell access, so I can’t independently read files or run commands unless their results are supplied through a tool or updated workspace context.",
+      "messageId": "01M228H27C111J6JVTS1JTE0X4",
+      "timestamp": "2026-09-09T04:59:01.053Z"
+    },
+    {
+      "role": "user",
+      "content": "wwhhaatt  aarree  tthhee  ffiilleess  iinn  mmyy  ddiirreeccttoorryy",
+      "messageId": "01M22CXY87TDMCY5X7PS6KB8C4",
+      "sender": "You",
+      "timestamp": "2026-09-09T06:15:51.843Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Your workspace directory is `/home/marvellous/Projects/tru-gecko-harness`.\n\nIt contains:\n\n- `.gitignore`\n- `configs.json`\n- `package.json`\n- `package-lock.json`\n- `README.md`\n- `public/app.css`\n- `public/app.js`\n- `public/setup.css`\n- `scripts/add-to-config.js`\n- `views/index.html`\n- `src/` — application source files, controllers, services, and tools\n- `test/` — test files for chunking, Gecko client, harness, session storage, and tool registry\n\nThe complete `src/` files include `cli.mjs`, `config.mjs`, `server.mjs`, `tui.mjs`, `gecko-client.mjs`, `gecko-harness.mjs`, `gecko-transcript.mjs`, and related service/controller files.",
+      "messageId": "01M22CXZ3RZ8ASV4N35S0PZG3F",
+      "timestamp": "2026-09-09T06:15:58.138Z"
+    }
+  ]
+}

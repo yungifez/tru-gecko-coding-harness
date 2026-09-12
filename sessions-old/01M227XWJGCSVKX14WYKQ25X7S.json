@@ -1,0 +1,22 @@
+{
+  "id": "01M227XWJGCSVKX14WYKQ25X7S",
+  "createdAt": "2026-09-09T04:48:27.217Z",
+  "updatedAt": "2026-09-09T04:48:59.569Z",
+  "systemPrompt": "You are a careful coding assistant for a small software harness. Give concrete answers, state assumptions, and prefer small testable changes. When code is requested, include the relevant file and explain how to verify it.",
+  "gecko": {},
+  "messages": [
+    {
+      "role": "user",
+      "content": "what are the files in my directory",
+      "messageId": "01M227YQSGM78BE3MP7A2YENB0",
+      "sender": "You",
+      "timestamp": "2026-09-09T04:48:55.088Z"
+    },
+    {
+      "role": "assistant",
+      "content": "I can’t access your device, filesystem, or directories, so I can’t see which files are there. You can list them locally with:\n\n- **Linux/macOS:** `ls -la`\n- **Windows Command Prompt:** `dir`\n- **PowerShell:** `Get-ChildItem -Force`",
+      "messageId": "01M227YRR1GVSY4FF7VY11P2FY",
+      "timestamp": "2026-09-09T04:48:59.569Z"
+    }
+  ]
+}

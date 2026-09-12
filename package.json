@@ -1,0 +1,27 @@
+{
+  "name": "tru-gecko-harness",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A small local coding harness modeled on the TRU Gecko chatbot event stream.",
+  "scripts": {
+    "start": "node src/tui.mjs",
+    "cli": "node src/cli.mjs",
+    "web": "node src/server.mjs",
+    "config:add": "node scripts/add-to-config.js",
+    "demo": "node src/cli.mjs --demo",
+    "aig": "node scripts/aig-scan.mjs",
+    "aig:scan": "node scripts/aig-scan.mjs",
+    "aig:suite": "node scripts/aig-scan.mjs",
+    "aig:services": "node scripts/aig-services.mjs",
+    "aig:smoke": "node scripts/aig-tru-smoke.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^8.7.2",
+    "blessed": "^0.1.81",
+    "playwright": "^1.55.0",
+    "ulid": "^3.0.2",
+    "ws": "^8.18.3"
+  }
+}

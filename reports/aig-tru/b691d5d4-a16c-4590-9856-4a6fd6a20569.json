@@ -1,0 +1,34 @@
+{
+  "id": "b691d5d4-a16c-4590-9856-4a6fd6a20569",
+  "account": "tru",
+  "startedAt": "2026-09-11T15:54:49.011Z",
+  "workspace": "/tmp/tru-aig-case-LZsfsh",
+  "remoteIsolation": "saved TRU conversation reused; prior server context may persist",
+  "prompt": "Only return 1",
+  "messages": [],
+  "tools": [],
+  "events": {
+    "client-sendMessage": 1,
+    "botTyping": 2,
+    "botMessageStreamCompleted": 1
+  },
+  "status": "timeout",
+  "completionShape": {
+    "keys": [
+      "conversationId",
+      "message"
+    ],
+    "messageKeys": [
+      "id",
+      "participantId"
+    ],
+    "entryTextLength": 0,
+    "messageTextLength": 0
+  },
+  "error": "No completed response within the case deadline",
+  "finishedAt": "2026-09-11T15:56:19.030Z",
+  "fixtureFiles": [
+    "notes.txt",
+    "package.json"
+  ]
+}

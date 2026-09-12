@@ -1,0 +1,41 @@
+{
+  "startedAt": "2026-09-11T15:52:06.241Z",
+  "account": "tru",
+  "type": "fresh conversation control",
+  "trace": {
+    "id": "3832cbbc-1623-43dd-a7b7-1dd2fa9bff01",
+    "account": "tru",
+    "startedAt": "2026-09-11T15:52:12.154Z",
+    "workspace": "/tmp/tru-aig-case-k6Y1Yk",
+    "remoteIsolation": "fresh browser conversation; not saved to configs.json",
+    "prompt": "What is 2 plus 2? Reply with the number only.",
+    "messages": [],
+    "tools": [],
+    "events": {
+      "client-sendMessage": 1,
+      "botTyping": 2,
+      "botMessageStreamCompleted": 1
+    },
+    "status": "timeout",
+    "completionShape": {
+      "keys": [
+        "conversationId",
+        "message"
+      ],
+      "messageKeys": [
+        "id",
+        "participantId"
+      ],
+      "entryTextLength": 0,
+      "messageTextLength": 0
+    },
+    "error": "No completed response within the case deadline",
+    "finishedAt": "2026-09-11T15:52:57.162Z",
+    "fixtureFiles": [
+      "notes.txt",
+      "package.json"
+    ]
+  },
+  "outcome": "inconclusive",
+  "finishedAt": "2026-09-11T15:52:57.169Z"
+}

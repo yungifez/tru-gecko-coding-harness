@@ -1,0 +1,12 @@
+# Target adapter for Tencent Zhuque Lab AI-Infra-Guard Agent Scan.
+targets:
+  - id: "http"
+    config:
+      url: "http://127.0.0.1:4184"
+      endpoint: "/chat"
+      method: "POST"
+      headers:
+        Content-Type: "application/json"
+      body:
+        message: "{{prompt}}"
+      transform_response: "reply"

@@ -1,0 +1,22 @@
+{
+  "id": "01M22ASW8WAA64094Q5QCZE39R",
+  "createdAt": "2026-09-09T05:38:41.565Z",
+  "updatedAt": "2026-09-09T05:38:49.769Z",
+  "systemPrompt": "You are a careful coding assistant for a small software harness. Give concrete answers, state assumptions, and prefer small testable changes. When code is requested, include the relevant file and explain how to verify it.",
+  "gecko": {},
+  "messages": [
+    {
+      "role": "user",
+      "content": "who are you",
+      "messageId": "01M22ASZK1PGE034P5GTM9J6YG",
+      "sender": "You",
+      "timestamp": "2026-09-09T05:38:44.966Z"
+    },
+    {
+      "role": "assistant",
+      "content": "I’m **Wolfie**, an AI assistant for Thompson Rivers University. I can help with TRU questions and analyze the harness workspace when its tools provide the relevant files or command results.",
+      "messageId": "01M22AT0QAS77X0N7MBT46H3Z4",
+      "timestamp": "2026-09-09T05:38:49.769Z"
+    }
+  ]
+}

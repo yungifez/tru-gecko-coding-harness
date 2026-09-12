@@ -1,0 +1,35 @@
+{
+  "id": "01M22AMRVR9SAPC4RZV307PYKD",
+  "createdAt": "2026-09-09T05:35:54.233Z",
+  "updatedAt": "2026-09-09T05:36:31.013Z",
+  "systemPrompt": "You are a careful coding assistant for a small software harness. Give concrete answers, state assumptions, and prefer small testable changes. When code is requested, include the relevant file and explain how to verify it.",
+  "gecko": {},
+  "messages": [
+    {
+      "role": "user",
+      "content": "/tool",
+      "messageId": "01M22AMYPS3PNBC7ZQM2RBQSXQ",
+      "sender": "You",
+      "timestamp": "2026-09-09T05:36:00.222Z"
+    },
+    {
+      "role": "assistant",
+      "content": "`/tool` isn’t a recognized command here. If you want to work with the harness, tell me what you’d like to do—for example, inspect a file, run the test suite, check Git status, or review available tools.",
+      "messageId": "01M22AMZKQN3XFEGEC36WF3VN8",
+      "timestamp": "2026-09-09T05:36:05.822Z"
+    },
+    {
+      "role": "user",
+      "content": "telll me the content of configs file",
+      "messageId": "01M22ANQZJAJ5FXJVC83S53WA6",
+      "sender": "You",
+      "timestamp": "2026-09-09T05:36:26.103Z"
+    },
+    {
+      "role": "assistant",
+      "content": "I can see that `configs.json` exists in `/home/marvellous/Projects/tru-gecko-harness`, but its contents weren’t supplied in the workspace context. I can’t read it directly from here.\n\nPlease provide the file contents, or use the harness’s file-reading tool for:\n\n```text\nworkspace.read_file(\"/home/marvellous/Projects/tru-gecko-harness/configs.json\")\n```",
+      "messageId": "01M22ANRWTRQDCB0YZP9NN5BTB",
+      "timestamp": "2026-09-09T05:36:31.013Z"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "01M22BEYWVSEAY3XRZSZ9MFXN4",
+  "createdAt": "2026-09-09T05:50:12.380Z",
+  "updatedAt": "2026-09-09T05:50:20.040Z",
+  "systemPrompt": "You are a careful coding assistant for a small software harness. Give concrete answers, state assumptions, and prefer small testable changes. When code is requested, include the relevant file and explain how to verify it.",
+  "gecko": {},
+  "messages": [
+    {
+      "role": "user",
+      "content": "what are you",
+      "messageId": "01M22BF263TEAVKFSD56GGT52F",
+      "sender": "You",
+      "timestamp": "2026-09-09T05:50:15.753Z"
+    },
+    {
+      "role": "assistant",
+      "content": "I’m Peter the Anteater, UCI Undergraduate’s AI-powered assistant 🎓🐜 I help with UC Irvine admissions, programs, applications, and student services. Zot zot zot!",
+      "messageId": "01M22BF31G1QY5HS5NXQ6PS23W",
+      "timestamp": "2026-09-09T05:50:20.040Z"
+    }
+  ]
+}

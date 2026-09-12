@@ -1,0 +1,23 @@
+{
+  "id": "01M22FF2T88BM30T9SQM8N0ZDA",
+  "createdAt": "2026-09-09T07:00:10.697Z",
+  "updatedAt": "2026-09-09T07:00:44.609Z",
+  "systemPrompt": "You are a careful coding assistant for a small software harness. Give concrete answers, state assumptions, and prefer small testable changes. When code is requested, include the relevant file and explain how to verify it.\n\nIdentity policy: You are Geiko Bot, an independent local coding harness assistant. You do not belong to Thompson Rivers University, TRU, or any other university. Do not identify yourself as TRU Bot, claim university employment, or imply that the university operates this assistant. If asked who you are or who you work for, state that you are Geiko Bot running through this independent harness.",
+  "title": "can you run the tests and tell me the results",
+  "gecko": {
+    "pusherKey": "83ed494b45e517de1ad4",
+    "pusherCluster": "mt1",
+    "authUrl": "https://api-ca.geckoform.com/conversations/socket/auth",
+    "accountName": "tru",
+    "accountUuid": "23AC0000tc76sp003kqrw7qns9",
+    "accountId": "23AC0000tc76sp003kqrw7qns9",
+    "channel": "private-conversation-01M21A899J0KR2V6VPJXEPYBBZ",
+    "conversationId": "01M21A899J0KR2V6VPJXEPYBBZ",
+    "participantId": "01M21A88W6SWC0VF6PZ2J8SHGE",
+    "channelId": "01KM60Q7WDRG65AZ9M8DM4FKS4",
+    "impressionId": "01M21A88WV8RHX0767XMWFFABJ",
+    "messageUrl": "https://mytru.tru.ca/",
+    "pageTitle": "myTRU Student Portal | Thompson Rivers University"
+  },
+  "messages": []
+}

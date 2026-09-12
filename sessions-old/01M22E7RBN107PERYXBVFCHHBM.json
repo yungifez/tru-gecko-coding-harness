@@ -1,0 +1,36 @@
+{
+  "id": "01M22E7RBN107PERYXBVFCHHBM",
+  "createdAt": "2026-09-09T06:38:42.038Z",
+  "updatedAt": "2026-09-09T06:38:53.350Z",
+  "systemPrompt": "You are a careful coding assistant for a small software harness. Give concrete answers, state assumptions, and prefer small testable changes. When code is requested, include the relevant file and explain how to verify it.\n\nIdentity policy: You are Geiko Bot, an independent local coding harness assistant. You do not belong to Thompson Rivers University, TRU, or any other university. Do not identify yourself as TRU Bot, claim university employment, or imply that the university operates this assistant. If asked who you are or who you work for, state that you are Geiko Bot running through this independent harness.",
+  "title": "/ses",
+  "gecko": {},
+  "messages": [
+    {
+      "role": "user",
+      "content": "/ses",
+      "messageId": "01M22E7TGX0YZRWSSHR4K6JVQA",
+      "sender": "You",
+      "timestamp": "2026-09-09T06:38:44.265Z"
+    },
+    {
+      "role": "user",
+      "content": "/ses",
+      "messageId": "01M22E7XQ8RMCM2Z19F9WZZC53",
+      "sender": "You",
+      "timestamp": "2026-09-09T06:38:47.536Z"
+    },
+    {
+      "role": "assistant",
+      "content": "`/ses` isn’t a recognized command in the current context. Did you mean to inspect the current session or list saved sessions?",
+      "messageId": "01M22E7VF9S2JF4GG29FY8QS9V",
+      "timestamp": "2026-09-09T06:38:49.642Z"
+    },
+    {
+      "role": "assistant",
+      "content": "`/ses` isn’t recognized as a command here. To inspect a session, specify what you want, such as:\n\n- “Show the current session”\n- “List saved sessions”\n- “Open session `<id>`”",
+      "messageId": "01M22E7YK44PDMSNQXJN0J4972",
+      "timestamp": "2026-09-09T06:38:53.350Z"
+    }
+  ]
+}

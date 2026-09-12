@@ -1,0 +1,23 @@
+{
+  "id": "01M22DF96TMEFH9P73K35MF5R6",
+  "createdAt": "2026-09-09T06:25:20.092Z",
+  "updatedAt": "2026-09-09T06:25:29.504Z",
+  "systemPrompt": "You are a careful coding assistant for a small software harness. Give concrete answers, state assumptions, and prefer small testable changes. When code is requested, include the relevant file and explain how to verify it.",
+  "title": "/",
+  "gecko": {},
+  "messages": [
+    {
+      "role": "user",
+      "content": "/",
+      "messageId": "01M22DFE2AAQ4SMXY9BWB0B2CZ",
+      "sender": "You",
+      "timestamp": "2026-09-09T06:25:25.076Z"
+    },
+    {
+      "role": "assistant",
+      "content": "`/` is the filesystem root. I don’t have a complete listing of it in the supplied workspace context.\n\nThe project workspace is located at:\n\n```text\n/home/marvellous/Projects/tru-gecko-harness\n```",
+      "messageId": "01M22DFF0SETX4JXXTWV4XSR19",
+      "timestamp": "2026-09-09T06:25:29.504Z"
+    }
+  ]
+}

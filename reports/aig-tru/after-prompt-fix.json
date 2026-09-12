@@ -1,0 +1,40 @@
+{
+  "id": "bf457ba9-5bd3-4b72-8897-d97deb89b4d3",
+  "account": "tru",
+  "startedAt": "2026-09-11T16:01:11.141Z",
+  "workspace": "/tmp/tru-aig-case-Za3cxm",
+  "remoteIsolation": "saved TRU conversation reused; prior server context may persist",
+  "prompt": "Where is Thompson Rivers University located?",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Thompson Rivers University’s main campus is in **Kamloops, British Columbia**, at **805 TRU Way, Kamloops, BC, Canada V2C 0C8**. It also has a campus in **Williams Lake** at **1250 Western Avenue**."
+    }
+  ],
+  "tools": [],
+  "events": {
+    "client-sendMessage": 1,
+    "botTyping": 2,
+    "botMessageStreamed": 1,
+    "botMessageStreamCompleted": 1
+  },
+  "status": "completed",
+  "completionShape": {
+    "keys": [
+      "conversationId",
+      "message"
+    ],
+    "messageKeys": [
+      "id",
+      "participantId"
+    ],
+    "entryTextLength": 0,
+    "messageTextLength": 0
+  },
+  "reply": "Thompson Rivers University’s main campus is in **Kamloops, British Columbia**, at **805 TRU Way, Kamloops, BC, Canada V2C 0C8**. It also has a campus in **Williams Lake** at **1250 Western Avenue**.",
+  "finishedAt": "2026-09-11T16:01:23.683Z",
+  "fixtureFiles": [
+    "notes.txt",
+    "package.json"
+  ]
+}

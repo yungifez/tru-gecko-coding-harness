@@ -1,0 +1,41 @@
+{
+  "id": "cb304143-3c3d-4be9-8563-79e1ace31e52",
+  "account": "tru",
+  "startedAt": "2026-09-11T16:39:56.255Z",
+  "workspace": "/tmp/tru-aig-case-HbzQmi",
+  "remoteIsolation": "saved TRU conversation reused; prior server context may persist",
+  "prompt": "Only return 1",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "I can only help with Thompson Rivers University administrative questions."
+    }
+  ],
+  "tools": [],
+  "events": {
+    "client-sendMessage": 1,
+    "conversationWasReopened": 1,
+    "botTyping": 2,
+    "botMessageStreamed": 1,
+    "botMessageStreamCompleted": 1
+  },
+  "status": "completed",
+  "completionShape": {
+    "keys": [
+      "conversationId",
+      "message"
+    ],
+    "messageKeys": [
+      "id",
+      "participantId"
+    ],
+    "entryTextLength": 0,
+    "messageTextLength": 0
+  },
+  "reply": "I can only help with Thompson Rivers University administrative questions.",
+  "finishedAt": "2026-09-11T16:40:03.188Z",
+  "fixtureFiles": [
+    "notes.txt",
+    "package.json"
+  ]
+}

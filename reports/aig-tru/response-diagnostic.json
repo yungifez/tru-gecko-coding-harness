@@ -1,0 +1,112 @@
+{
+  "startedAt": "2026-09-11T15:57:40.998Z",
+  "probes": [
+    {
+      "mode": "plain",
+      "frames": [
+        {
+          "event": "botTyping",
+          "channelMatches": true,
+          "keys": [
+            "typing"
+          ],
+          "messageKeys": [],
+          "text": null
+        },
+        {
+          "event": "botMessageStreamed",
+          "channelMatches": true,
+          "keys": [
+            "conversationId",
+            "messageId",
+            "chunkIdx",
+            "message"
+          ],
+          "messageKeys": [
+            "messageType",
+            "id",
+            "participantId",
+            "entryText",
+            "entryHtml",
+            "entryType",
+            "conversationId",
+            "channelId",
+            "createdAt",
+            "botId",
+            "botMessageRating",
+            "status",
+            "isImported",
+            "relations",
+            "messageSource",
+            "participant"
+          ],
+          "text": "I can only help with Thompson Rivers University administrative questions, not general arithmetic."
+        },
+        {
+          "event": "botTyping",
+          "channelMatches": true,
+          "keys": [
+            "typing"
+          ],
+          "messageKeys": [],
+          "text": null
+        },
+        {
+          "event": "botMessageStreamCompleted",
+          "channelMatches": true,
+          "keys": [
+            "conversationId",
+            "message"
+          ],
+          "messageKeys": [
+            "id",
+            "participantId"
+          ],
+          "text": null
+        }
+      ],
+      "messages": [
+        {
+          "content": "I can only help with Thompson Rivers University administrative questions, not general arithmetic."
+        }
+      ]
+    },
+    {
+      "mode": "harness",
+      "frames": [
+        {
+          "event": "botTyping",
+          "channelMatches": true,
+          "keys": [
+            "typing"
+          ],
+          "messageKeys": [],
+          "text": null
+        },
+        {
+          "event": "botTyping",
+          "channelMatches": true,
+          "keys": [
+            "typing"
+          ],
+          "messageKeys": [],
+          "text": null
+        },
+        {
+          "event": "botMessageStreamCompleted",
+          "channelMatches": true,
+          "keys": [
+            "conversationId",
+            "message"
+          ],
+          "messageKeys": [
+            "id",
+            "participantId"
+          ],
+          "text": null
+        }
+      ],
+      "messages": []
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+.idea
+test
+dist
+.DS_Store
+test_prompt.txt
+
+cmd/internal
+temp_uploads
+logs
+db
+uploads
+.venv
+__pycache__
+venv
+tests
+
+# OpenClaw internal workspace file
+openclaw.md
+.xac/
+yamlcheck
+.workbuddy
+.pytest_cache
+services/api_checker/.venv/
+services/api_checker/log/
+services/api_checker/result/
+services/api_checker/runtime/
+services/api_checker/pamela/results/
+services/**/__pycache__/
+services/**/*.pyc
+
+# local deployment & test artifacts
+deploy/
+common/utils/chromium/screenshot.png

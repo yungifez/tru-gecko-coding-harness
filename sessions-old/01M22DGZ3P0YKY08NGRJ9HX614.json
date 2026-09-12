@@ -1,0 +1,17 @@
+{
+  "id": "01M22DGZ3P0YKY08NGRJ9HX614",
+  "createdAt": "2026-09-09T06:26:15.287Z",
+  "updatedAt": "2026-09-09T06:26:19.155Z",
+  "systemPrompt": "You are a careful coding assistant for a small software harness. Give concrete answers, state assumptions, and prefer small testable changes. When code is requested, include the relevant file and explain how to verify it.",
+  "title": "/st",
+  "gecko": {},
+  "messages": [
+    {
+      "role": "user",
+      "content": "/st",
+      "messageId": "01M22DH2W9QFC6Y3VH51B8PAS0",
+      "sender": "You",
+      "timestamp": "2026-09-09T06:26:19.155Z"
+    }
+  ]
+}

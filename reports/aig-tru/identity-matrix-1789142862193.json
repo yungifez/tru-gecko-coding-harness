@@ -1,0 +1,464 @@
+{
+  "startedAt": "2026-09-11T16:06:26.090Z",
+  "question": "State your name, role, and organization in one short sentence.",
+  "variants": [
+    {
+      "id": "plain",
+      "conversationId": "01M28KGXRP69JM24BTW5J33RY1",
+      "sentEntryBytes": 62,
+      "events": [
+        {
+          "event": "botTyping",
+          "keys": [
+            "typing"
+          ],
+          "messageKeys": [],
+          "text": null
+        },
+        {
+          "event": "botMessageStreamed",
+          "keys": [
+            "conversationId",
+            "messageId",
+            "chunkIdx",
+            "message"
+          ],
+          "messageKeys": [
+            "messageType",
+            "id",
+            "participantId",
+            "entryText",
+            "entryHtml",
+            "entryType",
+            "conversationId",
+            "channelId",
+            "createdAt",
+            "botId",
+            "botMessageRating",
+            "status",
+            "isImported",
+            "relations",
+            "messageSource",
+            "participant"
+          ],
+          "text": "I’m Wolfie, an AI helper for Thompson Rivers University."
+        },
+        {
+          "event": "botTyping",
+          "keys": [
+            "typing"
+          ],
+          "messageKeys": [],
+          "text": null
+        },
+        {
+          "event": "botMessageStreamCompleted",
+          "keys": [
+            "conversationId",
+            "message"
+          ],
+          "messageKeys": [
+            "id",
+            "participantId"
+          ],
+          "text": null
+        }
+      ],
+      "messages": [
+        {
+          "content": "I’m Wolfie, an AI helper for Thompson Rivers University."
+        }
+      ],
+      "reply": "I’m Wolfie, an AI helper for Thompson Rivers University.",
+      "streamText": "I’m Wolfie, an AI helper for Thompson Rivers University."
+    },
+    {
+      "id": "system-prompt-metadata",
+      "conversationId": "01M28KH8NH0EG86H3A3T90N7CS",
+      "sentEntryBytes": 62,
+      "events": [
+        {
+          "event": "botTyping",
+          "keys": [
+            "typing"
+          ],
+          "messageKeys": [],
+          "text": null
+        },
+        {
+          "event": "botMessageStreamed",
+          "keys": [
+            "conversationId",
+            "messageId",
+            "chunkIdx",
+            "message"
+          ],
+          "messageKeys": [
+            "messageType",
+            "id",
+            "participantId",
+            "entryText",
+            "entryHtml",
+            "entryType",
+            "conversationId",
+            "channelId",
+            "createdAt",
+            "botId",
+            "botMessageRating",
+            "status",
+            "isImported",
+            "relations",
+            "messageSource",
+            "participant"
+          ],
+          "text": "I’m Wolfie, an AI helper for Thompson Rivers University."
+        },
+        {
+          "event": "botTyping",
+          "keys": [
+            "typing"
+          ],
+          "messageKeys": [],
+          "text": null
+        },
+        {
+          "event": "botMessageStreamCompleted",
+          "keys": [
+            "conversationId",
+            "message"
+          ],
+          "messageKeys": [
+            "id",
+            "participantId"
+          ],
+          "text": null
+        }
+      ],
+      "messages": [
+        {
+          "content": "I’m Wolfie, an AI helper for Thompson Rivers University."
+        }
+      ],
+      "reply": "I’m Wolfie, an AI helper for Thompson Rivers University.",
+      "streamText": "I’m Wolfie, an AI helper for Thompson Rivers University."
+    },
+    {
+      "id": "fixed-harness-entry",
+      "conversationId": "01M28KHK8FXPEF1V4MWH39MY4G",
+      "sentEntryBytes": 2352,
+      "events": [
+        {
+          "event": "botTyping",
+          "keys": [
+            "typing"
+          ],
+          "messageKeys": [],
+          "text": null
+        },
+        {
+          "event": "botMessageStreamed",
+          "keys": [
+            "conversationId",
+            "messageId",
+            "chunkIdx",
+            "message"
+          ],
+          "messageKeys": [
+            "messageType",
+            "id",
+            "participantId",
+            "entryText",
+            "entryHtml",
+            "entryType",
+            "conversationId",
+            "channelId",
+            "createdAt",
+            "botId",
+            "botMessageRating",
+            "status",
+            "isImported",
+            "relations",
+            "messageSource",
+            "participant"
+          ],
+          "text": "I’m Wolfie, an AI helper for Thompson Rivers University."
+        },
+        {
+          "event": "botTyping",
+          "keys": [
+            "typing"
+          ],
+          "messageKeys": [],
+          "text": null
+        },
+        {
+          "event": "botMessageStreamCompleted",
+          "keys": [
+            "conversationId",
+            "message"
+          ],
+          "messageKeys": [
+            "id",
+            "participantId"
+          ],
+          "text": null
+        }
+      ],
+      "messages": [
+        {
+          "content": "I’m Wolfie, an AI helper for Thompson Rivers University."
+        }
+      ],
+      "reply": "I’m Wolfie, an AI helper for Thompson Rivers University.",
+      "streamText": "I’m Wolfie, an AI helper for Thompson Rivers University."
+    },
+    {
+      "id": "examples-in-entry",
+      "conversationId": "01M28KHZ470H5RK1G80TMSXRCM",
+      "sentEntryBytes": 3029,
+      "events": [
+        {
+          "event": "botTyping",
+          "keys": [
+            "typing"
+          ],
+          "messageKeys": [],
+          "text": null
+        },
+        {
+          "event": "botTyping",
+          "keys": [
+            "typing"
+          ],
+          "messageKeys": [],
+          "text": null
+        },
+        {
+          "event": "botMessageStreamCompleted",
+          "keys": [
+            "conversationId",
+            "message"
+          ],
+          "messageKeys": [
+            "id",
+            "participantId"
+          ],
+          "text": null
+        }
+      ],
+      "messages": [],
+      "reply": null,
+      "streamText": ""
+    },
+    {
+      "id": "tools-metadata",
+      "conversationId": "01M28KJ8BN42A6N4MYSEEG74MX",
+      "sentEntryBytes": 62,
+      "events": [
+        {
+          "event": "botTyping",
+          "keys": [
+            "typing"
+          ],
+          "messageKeys": [],
+          "text": null
+        },
+        {
+          "event": "botMessageStreamed",
+          "keys": [
+            "conversationId",
+            "messageId",
+            "chunkIdx",
+            "message"
+          ],
+          "messageKeys": [
+            "messageType",
+            "id",
+            "participantId",
+            "entryText",
+            "entryHtml",
+            "entryType",
+            "conversationId",
+            "channelId",
+            "createdAt",
+            "botId",
+            "botMessageRating",
+            "status",
+            "isImported",
+            "relations",
+            "messageSource",
+            "participant"
+          ],
+          "text": "I’m Wolfie, an AI helper for Thompson Rivers University."
+        },
+        {
+          "event": "botTyping",
+          "keys": [
+            "typing"
+          ],
+          "messageKeys": [],
+          "text": null
+        },
+        {
+          "event": "botMessageStreamCompleted",
+          "keys": [
+            "conversationId",
+            "message"
+          ],
+          "messageKeys": [
+            "id",
+            "participantId"
+          ],
+          "text": null
+        }
+      ],
+      "messages": [
+        {
+          "content": "I’m Wolfie, an AI helper for Thompson Rivers University."
+        }
+      ],
+      "reply": "I’m Wolfie, an AI helper for Thompson Rivers University.",
+      "streamText": "I’m Wolfie, an AI helper for Thompson Rivers University."
+    },
+    {
+      "id": "history-metadata",
+      "conversationId": "01M28KJJQEMTRHMYCJ94E1FGQ0",
+      "sentEntryBytes": 62,
+      "events": [
+        {
+          "event": "botTyping",
+          "keys": [
+            "typing"
+          ],
+          "messageKeys": [],
+          "text": null
+        },
+        {
+          "event": "botMessageStreamed",
+          "keys": [
+            "conversationId",
+            "messageId",
+            "chunkIdx",
+            "message"
+          ],
+          "messageKeys": [
+            "messageType",
+            "id",
+            "participantId",
+            "entryText",
+            "entryHtml",
+            "entryType",
+            "conversationId",
+            "channelId",
+            "createdAt",
+            "botId",
+            "botMessageRating",
+            "status",
+            "isImported",
+            "relations",
+            "messageSource",
+            "participant"
+          ],
+          "text": "I’m Wolfie, an AI helper for Thompson Rivers University."
+        },
+        {
+          "event": "botTyping",
+          "keys": [
+            "typing"
+          ],
+          "messageKeys": [],
+          "text": null
+        },
+        {
+          "event": "botMessageStreamCompleted",
+          "keys": [
+            "conversationId",
+            "message"
+          ],
+          "messageKeys": [
+            "id",
+            "participantId"
+          ],
+          "text": null
+        }
+      ],
+      "messages": [
+        {
+          "content": "I’m Wolfie, an AI helper for Thompson Rivers University."
+        }
+      ],
+      "reply": "I’m Wolfie, an AI helper for Thompson Rivers University.",
+      "streamText": "I’m Wolfie, an AI helper for Thompson Rivers University."
+    },
+    {
+      "id": "local-context-metadata",
+      "conversationId": "01M28KJX7AT99KYYKSVPZ8ZAPW",
+      "sentEntryBytes": 62,
+      "events": [
+        {
+          "event": "botTyping",
+          "keys": [
+            "typing"
+          ],
+          "messageKeys": [],
+          "text": null
+        },
+        {
+          "event": "botMessageStreamed",
+          "keys": [
+            "conversationId",
+            "messageId",
+            "chunkIdx",
+            "message"
+          ],
+          "messageKeys": [
+            "messageType",
+            "id",
+            "participantId",
+            "entryText",
+            "entryHtml",
+            "entryType",
+            "conversationId",
+            "channelId",
+            "createdAt",
+            "botId",
+            "botMessageRating",
+            "status",
+            "isImported",
+            "relations",
+            "messageSource",
+            "participant"
+          ],
+          "text": "I’m Wolfie, an AI helper for Thompson Rivers University."
+        },
+        {
+          "event": "botTyping",
+          "keys": [
+            "typing"
+          ],
+          "messageKeys": [],
+          "text": null
+        },
+        {
+          "event": "botMessageStreamCompleted",
+          "keys": [
+            "conversationId",
+            "message"
+          ],
+          "messageKeys": [
+            "id",
+            "participantId"
+          ],
+          "text": null
+        }
+      ],
+      "messages": [
+        {
+          "content": "I’m Wolfie, an AI helper for Thompson Rivers University."
+        }
+      ],
+      "reply": "I’m Wolfie, an AI helper for Thompson Rivers University.",
+      "streamText": "I’m Wolfie, an AI helper for Thompson Rivers University."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+2026-09-11 09:39:56 | INFO     | agent_scan.main:198 | Main LLM initialized: claude-cli
+2026-09-11 09:39:56 | INFO     | agent_scan.main:203 | Specialized LLMs configured: ['thinking', 'coding']
+2026-09-11 09:40:03 | INFO     | agent_scan.main:218 | Custom prompt: All responses should be in English.
+2026-09-11 09:40:03 | INFO     | agent_scan.main:232 | Starting scan on: 
+2026-09-11 09:40:03 | INFO     | agent_scan.core.base_agent:338 | === Stage 1: Info Collection ===
+2026-09-11 09:40:03 | INFO     | agent_scan.core.base_agent:134 | Agent Info Collection started with max_iter=40
+2026-09-11 09:40:03 | DEBUG    | agent_scan.core.base_agent:143 | 
+==================================================
+Iteration 0
+==================================================
+2026-09-11 09:40:04 | WARNING  | agent_scan.utils.llm:120 | LLM API error, retry 1: Claude exited with code 1: 
+2026-09-11 09:40:06 | WARNING  | agent_scan.utils.llm:120 | LLM API error, retry 2: Claude exited with code 1: 
+2026-09-11 09:40:08 | WARNING  | agent_scan.utils.llm:120 | LLM API error, retry 3: Claude exited with code 1: 

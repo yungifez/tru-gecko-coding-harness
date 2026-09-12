@@ -1,0 +1,40 @@
+{
+  "id": "f95e0a14-4ce8-4f64-afa5-6d37ea150635",
+  "account": "tru",
+  "startedAt": "2026-09-11T16:08:18.798Z",
+  "workspace": "/tmp/tru-aig-case-Nc3J5I",
+  "remoteIsolation": "fresh conversation",
+  "prompt": "State your name, role, and organization in one short sentence.",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "I’m Wolfie, an AI helper for Thompson Rivers University."
+    }
+  ],
+  "tools": [],
+  "events": {
+    "client-sendMessage": 1,
+    "botTyping": 2,
+    "botMessageStreamed": 1,
+    "botMessageStreamCompleted": 1
+  },
+  "status": "completed",
+  "completionShape": {
+    "keys": [
+      "conversationId",
+      "message"
+    ],
+    "messageKeys": [
+      "id",
+      "participantId"
+    ],
+    "entryTextLength": 0,
+    "messageTextLength": 0
+  },
+  "reply": "I’m Wolfie, an AI helper for Thompson Rivers University.",
+  "finishedAt": "2026-09-11T16:08:23.672Z",
+  "fixtureFiles": [
+    "notes.txt",
+    "package.json"
+  ]
+}

@@ -1,5 +1,7 @@
 # Geiko Bot coding harness
 
+While the models have been strengthened to whitstand common form of prompt injection, it still lets any client create wbsocket connection. So this project is still a pretty cool way to see the AI lose it's mind. This repository is for testing purposes and I have responsibly disclosed my findings during the times I spent building this
+
 This is a small coding harness for a Gecko conversation channel. It connects over Pusher WebSocket, authenticates the configured conversation, sends typed messages, and renders typing indicators and streamed bot responses.
 
 The `--demo` mode remains offline and simulates the same event flow. The `GeckoHarness` class handles the event stream, while `GeckoClient` owns the live WebSocket and authentication.
